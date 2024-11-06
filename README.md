@@ -1,6 +1,6 @@
 # Confeitaria
 
-O intuito deste repositório é desenvolver um site de forma criativa, não podendo ser clone de outro site e usando as técnias do HTML e CSS. No exposto, foi criado um site de uma confeitaria. 
+O intuito deste repositório é desenvolver um site de forma criativa, não podendo ser clone de outro site e usando as técnicas do HTML e CSS. No exposto, foi criado um site de uma confeitaria. 
 
 <div align=center>
     <img src="./Assets/img/Macbook-Air-127.0.0.1.png" width=400>
