@@ -1,0 +1,55 @@
+header {
+  background-image: url(../Assets/img/papel-de-parede-confeitaria-doces-padaria-bolos-ssca-048-adesivo-de-parede-vinilico.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2rem;
+}
+header h1 {
+  font-family: cute-personal;
+  font-size: 7.8rem;
+  text-align: center;
+  color: black;
+  text-shadow: 2rem 2rem 4rem white;
+  letter-spacing: 0.1rem;
+  font-family: junigarden;
+}
+header h3 {
+  font-family: autumn;
+  text-align: center;
+  font-size: 3.5rem;
+  color: black;
+  text-shadow: 0.2rem 0.2rem 1rem white;
+  font-style: italic;
+  letter-spacing: 0.1rem;
+  text-decoration: underline;
+}
+/* ====== Responsividade 450px =========================*/
+@media (max-width: 450px) {
+  body {
+    /* width: 100%; */
+  }
+  header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  header h1 {
+    font-size: 6rem;
+  }
+  header h3 {
+    font-size: 2.6rem;
+  }
+}
+/* ====== Responsividade 1024px =========================*/
+@media (max-width: 1024px) {
+  header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

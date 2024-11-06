@@ -1,0 +1,300 @@
+main h2 {
+  font-size: 4.6rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.coluna {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menssagem-inicial {
+  padding-top: 2rem;
+  padding-left: 10rem;
+  width: 50%;
+}
+.menssagem-inicial p {
+  font-size: 1.6rem;
+  text-align: justify;
+  padding-top: 1rem;
+}
+.sobre-nos {
+  padding-top: 2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  width: 50%;
+}
+.sobre-nos p {
+  font-size: 1.6rem;
+  text-align: justify;
+  padding-top: 1rem;
+}
+
+/* ========= imagens do bolo ==============*/
+.fotos-bolos {
+  background-image: url(../Assets/img/papel-de-parede-black.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+.fotos-bolos h2 {
+  background-color: white;
+  color: black;
+  text-shadow: 0.1rem 0.1rem 2rem black;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+}
+.fotos-bolos ul {
+  display: flex;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  gap: 3rem;
+  justify-content: space-around;
+}
+.fotos-bolos img {
+  max-width: 20rem;
+  height: auto;
+  border-radius: 10%;
+}
+.fotos-bolos li {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  margin-right: 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  border: solid black;
+  border-radius: 1rem;
+  transition: 0.5s;
+  background-color: white;
+}
+.fotos-bolos li:hover {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 1rem 2rem black;
+
+  a {
+    box-shadow: 1rem 1rem 2rem black;
+    color: white;
+    background-color: black;
+  }
+  h3 {
+    text-decoration: underline;
+  }
+}
+.fotos-bolos h3 {
+  font-family: autumn;
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+}
+.fotos-bolos a {
+  font-size: 2.5rem;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  font-family: autumn;
+  font-weight: 1000;
+  color: black;
+  letter-spacing: 0.1rem;
+}
+/* =============== feedbacks============= */
+.clientes {
+  margin-top: 3rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.clientes img {
+  width: 10rem;
+  height: auto;
+}
+.clientes ul {
+  display: flex;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  gap: 3rem;
+  justify-content: space-around;
+}
+.clientes li {
+  max-width: 30rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  margin-right: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  border: solid black;
+  border-radius: 1rem;
+}
+.clientes p {
+  font-size: 1.6rem;
+}
+.clientes h3 {
+  font-size: 1.6rem;
+}
+
+/* ====== Responsividade 450px =========================*/
+@media (max-width: 450px) {
+  body {
+    width: 100%;
+  }
+  .coluna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .menssagem-inicial {
+    width: 100%;
+    padding: 1rem;
+  }
+  .sobre-nos {
+    width: 100%;
+    padding: 1rem;
+  }
+  .fotos-bolos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+  }
+  .fotos-bolos ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .fotos-bolos li {
+    max-height: 200rem;
+  }
+  .fotos-bolos h3 {
+    font-size: 2rem;
+  }
+  .clientes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+  }
+  .clientes ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .clientes li {
+    max-width: 25rem;
+    margin: 0;
+  }
+}
+/* ====== Responsividade 1024px =========================*/
+@media (max-width: 1024px) {
+  .coluna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .menssagem-inicial {
+    width: 100%;
+    padding: 1rem;
+  }
+  .sobre-nos {
+    width: 100%;
+    padding: 1rem;
+  }
+  .fotos-bolos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+  }
+  .fotos-bolos ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .fotos-bolos li {
+    max-height: 200rem;
+  }
+  .fotos-bolos h3 {
+    font-size: 2rem;
+  }
+  .clientes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+  }
+  .clientes ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .clientes li {
+    max-width: 25rem;
+    margin: 0;
+  }
+}
+/* ====== Responsividade 1440px =========================*/
+@media (max-width: 1440px) {
+  .coluna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .menssagem-inicial {
+    width: 100%;
+    padding: 1rem;
+  }
+  .sobre-nos {
+    width: 100%;
+    padding: 1rem;
+  }
+  .fotos-bolos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+  }
+  .fotos-bolos ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .fotos-bolos li {
+    max-height: 200rem;
+  }
+  .fotos-bolos h3 {
+    font-size: 2rem;
+  }
+  .clientes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+  }
+  .clientes ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .clientes li {
+    max-width: 25rem;
+    margin: 0;
+  }
+}

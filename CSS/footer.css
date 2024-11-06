@@ -1,0 +1,22 @@
+.contatos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.651);
+}
+.contatos img {
+  max-height: 4.8rem;
+  max-width: 4.4rem;
+}
+/* ====== Responsividade 450px =========================*/
+@media (max-width: 450px) {
+  body {
+    /* 100% */
+  }
+  .contatos {
+    width: 100%;
+    gap: 3rem;
+  }
+}

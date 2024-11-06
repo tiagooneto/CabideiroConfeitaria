@@ -1,0 +1,39 @@
+@import url(./CSS/header.css);
+@import url(./CSS/main.css);
+@import url(./CSS/footer.css);
+@font-face {
+  font-family: "cute-personal";
+  src: url(./Assets/fonts/cute-Peronal\ Use.otf);
+}
+@font-face {
+  font-family: "autumn";
+  src: url(./Assets/fonts/Autumn-in-September.ttf);
+}
+@font-face {
+  font-family: "roboto";
+  src: url(./Assets/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "junigarden";
+  src: url(./Assets/fonts/JunigardenSwash_PERSONAL_USE_ONLY.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  /* width: 100vh; */
+}
+
+h1,
+h2 {
+  font-family: cute-personal;
+  letter-spacing: 0.1rem;
+}
+p {
+  font-family: roboto;
+}
